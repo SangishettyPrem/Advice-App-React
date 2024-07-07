@@ -1,0 +1,42 @@
+.app{
+  background: url('https://th.bing.com/th/id/OIP.olFucKBYgDAVLs-0SDSETwHaEK?rs=1&pid=ImgDetMain');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.card{
+  width: 30%;
+  height: 25%;
+  background-color: whitesmoke;
+  padding: 10px;
+  color: black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.heading h4{
+  text-align: center;
+  font-size: 16px;
+}
+
+.heading button{
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+}
